@@ -1,0 +1,22 @@
+{
+  "name": "chat-fb",
+  "version": "1.0.0",
+  "description": "chatgpt in messenger!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -r dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "thopt",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fca-utils": "^0.0.6",
+    "openai": "^3.2.1",
+    "similarity": "^1.2.1"
+  }
+}
